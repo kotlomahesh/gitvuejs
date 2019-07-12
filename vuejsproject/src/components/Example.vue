@@ -15,6 +15,7 @@ name<input type="text" v-model="kotlo"><br><br>
 alert box<input type="text" v-on:keyup.space="alert">
 <button v-on:click="decrease">increase</button>
 <p>{{count}}</p>
+<p>{{ updated code}}</p>
 <p>{{result}}</p>
 </template>
 <script>
