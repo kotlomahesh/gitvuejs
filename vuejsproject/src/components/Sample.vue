@@ -15,5 +15,31 @@
     <h2 v-else> FALSE</h2>
     <button  v-on:click="abc">click here</button>
     <h1> MAHESH</h1>
+    <span>hello</span>
   </div>
 </template>
+<script>
+export default {
+  name: 'Sample',
+  data() {
+    return{
+    person:[{name:"candy",age:20},{name:"sande",age:21},{name:"ande",age:35}],
+     isvisible:true,
+     cse:{color:'blue',background:'green'
+          }
+    }
+  },
+  methods : {
+              abc:function() {
+                this.isvisible = !this.isvisible              }
+            }
+         }
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+h1{
+   background-color:blue;
+   color:red
+}
+</style>
