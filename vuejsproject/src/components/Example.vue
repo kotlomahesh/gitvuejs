@@ -5,7 +5,8 @@
 FINISHED LINK  
 <p v-html="fin"></p> 
 <button @click="counter++">plus</button>
-<p>{{counter}}</p>	
+<p>{{counter}}</p>
+<h1> hellikjdsjwakjfajdw</h1>	
 <p v-on:mousemove="coordintaes"> Coordinates: {{ x }} / {{  y }}-<span v-on:mousemove.stop="">stop</span></p>
 <p>{{kotlo}}</p>
 <p v-html="n"></p>
@@ -16,6 +17,8 @@ alert box<input type="text" v-on:keyup.space="alert">
 <button v-on:click="decrease">increase</button>
 <p>{{count}}</p>
 <p>{{result}}</p>
+<h1>hie harinath</h1>
+<span>hello</span>
 </template>
 <script>
 export default{
